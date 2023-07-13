@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <p>index.html</p>
+    {{ range .Pages }}
+      <a href="{{ .RelPermalink }}">{{ .Title }} </a>
+    {{ end }}
+  </div>
+{{ end }}

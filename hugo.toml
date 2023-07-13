@@ -1,0 +1,4 @@
+baseURL = 'https://bentranter.ca'
+languageCode = 'en-ca'
+title = 'Ben Tranter'
+theme = 'bentranter'

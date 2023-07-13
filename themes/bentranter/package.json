@@ -1,0 +1,21 @@
+{
+  "name": "bentranter",
+  "version": "0.0.1",
+  "description": "bentranter Hugo theme",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch",
+    "build": "esbuild ./assets/js/index.js --bundle --outfile=./assets/js/main.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Tranter",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "esbuild": "^0.18.12",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@hotwired/turbo": "^7.3.0"
+  }
+}
