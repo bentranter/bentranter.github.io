@@ -1,23 +1,17 @@
 ---
-title: About
-description: 'Hugo, the world''s fastest framework for building websites'
-author: Hugo Authors
+title: About Me
+description: About Me
+date: "2023-07-19"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I'm a Senior Software Engineer at DigitalOcean. I've worked there since 2019.
 
-Hugo makes use of a variety of open source projects including:
+I'm also the co-owner of [Sarah and Dipity's](https://sarahanddipitys.com), an online snack store in Thunder Bay. I wrote the custom online ordering platform used for the website.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I've worked as a software engineer since 2010.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Before my current positions, I worked for [MetaLab](https://metalab.com), [Walmart Labs](https://careers.walmart.com/technology), and a few other companies.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+I currently maintain [Seatbelt](https://github.com/go-seatbelt/seatbelt), a library for building HTML web apps in Go, as well as a number of DigitalOcean's open source libraries. I was also the primary maintainer of [goth](https://github.com/markbates/goth/) for a number of years.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+I co-authored a [video course on Go](https://www.packtpub.com/product/go-building-7-real-world-projects/9781788290494) for Packt Publishing in 2016. Luckily it's been retired, because it was not good.

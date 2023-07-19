@@ -1,8 +1,19 @@
 {{ define "main" }}
-  <div class="max-w-4xl mx-auto px-4 py-8">
-    <p>index.html</p>
-    {{ range .Pages }}
-      <a href="{{ .RelPermalink }}">{{ .Title }} </a>
-    {{ end }}
-  </div>
+  <main class="max-w-3xl mx-auto px-4 py-8">
+    <p class="text-center text-xl">My name is Ben. I work at <a href="https://www.digitalocean.com/" class="underline">DigitalOcean</a> as a Senior Software Engineer.</p>
+
+    <section class="mt-12">
+      <h3 class="sr-only">Posts</h3>
+      {{ range where site.RegularPages "Type" "in" "posts" }}
+        <article class="flex items-center text-lg py-2 justify-between border-b last:border-none">
+          <h4 class="font-medium"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+          {{/* format date string to create an ISO 8601 string */}}
+          {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+          <time datetime="{{ dateFormat $ISO_date .Date }}">
+            {{ .Date | time.Format ":date_medium" }}
+          </time>
+        </article>
+      {{ end }}
+    </section>
+  </main>
 {{ end }}
