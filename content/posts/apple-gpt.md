@@ -5,7 +5,7 @@ date: "2023-07-19"
 description: "The commoditization of LLMs"
 ---
 
-Today, $APPL spiked 2% around mid-day, apparently on the news that Apple is working on its own GPT-like product. Apple creating a GPT product that runs on a Cloud provider is cool and all, but I think they can do better.
+Today, $AAPL spiked 2% around mid-day, apparently on the news that Apple is [working on its own GPT-like product](https://www.bloomberg.com/news/articles/2023-07-19/apple-preps-ajax-generative-ai-apple-gpt-to-rival-openai-and-google). Apple creating a GPT product that runs on a Cloud provider is cool and all, but I think they can do better.
 
 **I think they can (and will) commoditize OpenAI's entire product.**
 
